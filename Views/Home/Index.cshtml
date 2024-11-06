@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BH Enterprises</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+
+
+        /* Banner section */
+        .banner {
+            background-color: #a2c0c7;
+            border-radius: 20px;
+            text-align: center;
+            color: #e73d89;
+            font-size: 36px;
+            padding: 30px;
+        }
+
+        /* Category buttons */
+        .category-buttons .btn {
+            margin: 5px;
+            background-color: #60757e;
+            color: white;
+            border-radius: 20px;
+        }
+
+        /* Products section */
+        .products-section h2 {
+            font-weight: bold;
+            text-align: center;
+            margin: 30px 0 20px;
+        }
+
+        /*  .product-card img {
+                                            width: 100%;
+                                            height: auto;
+                                            border: 2px solid black;
+                                            border-radius: 10px;
+                                        }
+
+                                        .product-card {
+                                            text-align: center;
+                                            margin-bottom: 20px;
+                                        } */
+        .product-card {
+            height: 300px; /* Set a fixed height for all product cards */
+            overflow: hidden; /* Hide any overflow content */
+            text-align: center; /* Center content */
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 5px solid black;
+            /* border-radius: 10px; */
+            margin: 2%;
+        }
+
+            .product-card img {
+                max-height: 100%; /* Fit image within card height */
+                max-width: 100%; /* Prevent image overflow */
+                object-fit: contain; /* Crop the image to fit within the div */
+            }
+
+        /* Footer styling */
+        .footer {
+            background-color: #d4e1e7;
+            padding: 20px;
+            text-align: center;
+            font-weight: 500;
+            color: #5d5d5d;
+        }
+
+        /* Carousel styling */
+        .carousel .carousel-item {
+            height: 300px; /* Fixed height for carousel */
+            overflow: hidden;
+        }
+
+            .carousel .carousel-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain; /* Cover the fixed height without stretching */
+            }
+
+
+    </style>
+</head>
+<body>
+
+
+    <!-- Banner Section -->
+    <section class="container my-5">
+        <div class="banner">
+            <div class="d-flex justify-content-evenly align-items-center itandcaros">
+                <div class="modal-title">
+                    @if (Model.CompanyDetail != null)
+                    {
+
+                        @if (Model.CompanyDetail.Slogan1 != null)
+                        {
+                            @* <h1 class="banner-title"> </h1> *@
+                            <h2>@Model.CompanyDetail.Slogan1</h2>
+
+
+                        }
+                        @if (Model.CompanyDetail.Slogan2 != null)
+                        {
+                            <h1 class="banner-title">@Model.CompanyDetail.Slogan2 </h1>
+                        }
+                        @if (Model.CompanyDetail.Slogan3 != null)
+                        {
+                            <h1 class="banner-title">@Model.CompanyDetail.Slogan3 </h1>
+                        }
+                    }
+                </div>
+                @* //mix-blend-mode:multiply *@
+                <div class="img-carous" style="width: 400px;">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            @for (int i = 0; i < Model.BannerList.Count; i++)
+                            {
+                                var item = Model.BannerList[i];
+                                <div class="carousel-item @(i == 0 ? "active" : "")">
+                                    <img  src="@item.BannerImg" class="img-fluid mt-3 mb-4" alt="@item.BannerImg">
+                                </div>
+                            }
+
+                        </div>
+                    </div>
+                    @* <img src="winter-collection.jpg" alt="Winter Collection" class="img-fluid mt-3 mb-4"> *@
+                </div>
+            </div>
+            <div class="category-buttons d-flex justify-content-center flex-wrap mt-2">
+                @{
+                    var menulistsdata = Model.MenuHeaderLists;
+
+                    @if (menulistsdata.Count >= 1)
+                    {
+                        var index0 = menulistsdata[0];
+                        @if (index0 != null)
+                        {
+                            <button class="btn" onclick="filterMenuheaderStockList(@index0.MenuHeaderId)">@index0.MenuHeaderName</button>
+                        }
+
+                    }
+
+                    @if (menulistsdata.Count >= 2)
+                    {
+                        var index1 = menulistsdata[1];
+
+                        @if (index1 != null)
+                        {
+                            <button class="btn" onclick="filterMenuheaderStockList(@index1.MenuHeaderId)">@index1.MenuHeaderName</button>
+                        }
+
+                    }
+
+                    @if (menulistsdata.Count >= 3)
+                    {
+                        var index2 = menulistsdata[2];
+
+
+                        @if (index2 != null)
+                        {
+                            <button class="btn" onclick="filterMenuheaderStockList(@index2.MenuHeaderId)">@index2.MenuHeaderName</button>
+                        }
+
+                    }
+
+                    @if (menulistsdata.Count >= 4)
+                    {
+                        var index3 = menulistsdata[3];
+                        @if (index3 != null)
+                        {
+                            <button class="btn" onclick="filterMenuheaderStockList(@index3.MenuHeaderId)">@index3.MenuHeaderName</button>
+                        }
+
+                    }
+
+                    @if (menulistsdata.Count >= 5)
+                    {
+                        var index4 = menulistsdata[4];
+
+                        @if (index4 != null)
+                        {
+                            <button class="btn" onclick="filterMenuheaderStockList(@index4.MenuHeaderId)">@index4.MenuHeaderName</button>
+                        }
+
+                    }
+
+                    @if (menulistsdata.Count >= 6)
+                    {
+                        var index5 = menulistsdata[5];
+
+                        @if (index5 != null)
+                        {
+                            <button class="btn" onclick="filterMenuheaderStockList(@index5.MenuHeaderId)">@index5.MenuHeaderName</button>
+                        }
+
+                    }
+
+                }
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Products Section -->
+    <section class="products-section container">
+        @if (Model.stockLatestList.Count > 0)
+        {
+            <h2>Latest Products</h2>
+            <div class="row" style="display:flex;justify-content:space-evenly">
+                @{
+                    var stocklatestdata = Model.stockLatestList;
+                    if (stocklatestdata != null)
+                    {
+                        @if (stocklatestdata.Count >= 1)
+                        {
+                            var lat0 = stocklatestdata[0];
+                            var lat0imagePaths = lat0.StImage.Split(';');
+                            var firstImage = lat0imagePaths[0];
+                            <div class="col-md-2">
+                                <div class="product-card" onclick="OpenStockDetail(@lat0.StId)">
+                                    <img src="@firstImage" alt="Product 1">
+                                </div>
+                            </div>
+
+                        }
+
+                        @if (stocklatestdata.Count >= 2)
+                        {
+                            var lat1 = stocklatestdata[1];
+                            var lat1imagePaths = lat1.StImage.Split(';');
+                            var secondImage = lat1imagePaths[0];
+                            <div class="col-md-2">
+                                <div class="product-card" onclick="OpenStockDetail(@lat1.StId)">
+                                    <img src="@secondImage" alt="Product 1">
+                                </div>
+                            </div>
+
+                        }
+
+                        @if (stocklatestdata.Count >= 3)
+                        {
+                            var lat2 = stocklatestdata[2];
+                            var lat2imagePaths = lat2.StImage.Split(';');
+                            var thirdImage = lat2imagePaths[0];
+                            <div class="col-md-2">
+                                <div class="product-card" onclick="OpenStockDetail(@lat2.StId)">
+                                    <img src="@thirdImage" alt="Product 1">
+                                </div>
+                            </div>
+
+                        }
+
+
+
+                    }
+                }
+            </div>
+        }
+    </section>
+
+    <!-- Popular Products Section -->
+    <section class="products-section container">
+        @if (Model.stockPopularList.Count > 0)
+        {
+            <h2>Popular Products</h2>
+            <div class="row" style="display:flex;justify-content:space-evenly">
+                @{
+                    var stockpopulardata = Model.stockPopularList;
+                    if (stockpopulardata != null)
+                    {
+
+                        @if (stockpopulardata.Count >= 1)
+                        {
+                            var pop0 = stockpopulardata[0];
+                            var pop0imagePaths = pop0.StImage.Split(';');
+                            var popfirstImage = pop0imagePaths[0];
+                            <div class="col-md-2 popimgs">
+                                <div class="product-card" onclick="OpenStockDetail(@pop0.StId)">
+                                    <img src="@popfirstImage" alt="Product 4">
+                                </div>
+                            </div>
+
+                        }
+
+                        @if (stockpopulardata.Count >= 2)
+                        {
+                            var pop1 = stockpopulardata[1];
+                            var pop1imagePaths = pop1.StImage.Split(';');
+                            var popsecondImage = pop1imagePaths[0];
+                            <div class="col-md-2 popimgs">
+                                <div class="product-card" onclick="OpenStockDetail(@pop1.StId)">
+                                    <img src="@popsecondImage" alt="Product 4">
+                                </div>
+                            </div>
+
+                        }
+
+                        @if (stockpopulardata.Count >= 3)
+                        {
+                            var pop2 = stockpopulardata[2];
+                            var pop2imagePaths = pop2.StImage.Split(';');
+                            var popthirdImage = pop2imagePaths[0];
+                            <div class="col-md-2 popimgs">
+                                <div class="product-card" onclick="OpenStockDetail(@pop2.StId)">
+                                    <img src="@popthirdImage" alt="Product 4">
+                                </div>
+                            </div>
+
+                        }
+                    }
+
+                }
+
+            </div>
+        }
+    </section>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/js/stock.js"></script>
+<script src="~/js/search.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#menuheadertitle").hide();
+        $("#navbarlist").hide();
+        $("#hidemenuheader").hide();
+
+    });
+
+
+    function displayLatestItems() {
+        var fromdate = $("#fromdate").val();
+        var todate = $("#todate").val();
+        window.location.href = getUrlPath() + "Home/StockLatetsItems?FromDate=" + fromdate + "&Todate=" + todate;
+    }
+</script>

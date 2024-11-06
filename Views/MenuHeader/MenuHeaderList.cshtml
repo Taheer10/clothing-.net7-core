@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ClothingPro.BusinessLayer.DTO.MenuHeaderDTO>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Category</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Button styling */
+        .category-button {
+            background-color: #679292;
+            color: white;
+            margin: 5px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            transition: transform 0.2s ease-in-out;
+            margin: 7%;
+        }
+
+            .category-button:hover {
+                transform: scale(1.05);
+            }
+
+        .category-title {
+            font-size: 2rem;
+            text-align: center;
+            margin-top: 20px;
+            color: #679292;
+        }
+
+        .category-list-title {
+            font-size: 1.5rem;
+            text-align: center;
+            margin: 10px 0;
+            color: #5b5b5b;
+        }
+
+        /* Responsive adjustments */
+        @@media (max-width: 768px) {
+            .category-button {
+                /* width: 100%; */
+                text-align: center;
+            }
+        }
+
+        @@media (max-width: 500px) {
+            .category-button {
+                width: 70%; /* Full-width buttons on small screens */
+                text-align: center;
+                margin: 5px 0; /* Adjust margin for spacing */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="category-section container">
+        <h1 class="category-title">Product Category</h1>
+        @*   <div class="category-list-title">Category List</div> *@
+        <div class="category-buttons d-flex flex-wrap justify-content-center">
+            @if (Model.Count() > 0)
+            {
+                @foreach (var item in Model)
+                {
+                    <button class="category-button" onclick="filterMenuheaderStockList(@item.MenuHeaderId)">@item.MenuHeaderName</button>
+                }
+            }
+        </div>
+    </div>
+
+    <!-- Bootstrap Icons and JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<script src="~/js/banner.js"></script>
+<script src="~/js/search.js"></script>

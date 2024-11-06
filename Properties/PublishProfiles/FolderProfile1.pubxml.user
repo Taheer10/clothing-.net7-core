@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Projects\,net7 core\.net 7 output</_PublishTargetUrl>
+    <History>True|2024-11-05T09:25:48.9250535Z;True|2024-11-05T14:05:51.2130509+05:45;True|2024-11-04T12:31:19.8367819+05:45;True|2024-11-04T12:15:39.5852682+05:45;True|2024-11-03T15:07:11.1152585+05:45;True|2024-11-03T13:50:49.6602658+05:45;True|2024-11-03T13:16:56.0309449+05:45;True|2024-11-03T12:52:24.3482398+05:45;True|2024-11-03T12:25:25.1221252+05:45;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

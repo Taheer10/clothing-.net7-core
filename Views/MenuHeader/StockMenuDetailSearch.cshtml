@@ -1,0 +1,267 @@
+﻿@model ClothingPro.Models.StockMenuView
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BH Enterprises - Product Collection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .lead {
+            float: left;
+        }
+
+        .product-grid {
+            padding: 1rem;
+            justify-content: space-evenly;
+        }
+
+        .productlists {
+            height: 320px; /* Fixed height for each product card */
+            margin: 3%;
+        }
+
+        .detshare {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .product-item {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            background-color: #ffffff;
+            padding: 1rem;
+            transition: box-shadow 0.3s;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+            .product-item:hover {
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            .product-item img {
+                height: 150px; /* Fixed height for images */
+                width: 100%;
+                object-fit: contain;
+                background-color: #f0f0f0; /* Light grey background for missing images */
+            }
+
+        .product-title {
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .product-category {
+            color: #777;
+            font-size: 14px;
+        }
+
+        .color-options {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+            .color-options span {
+                display: inline-block;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                border: 1px solid #000;
+            }
+
+        .details-btn {
+            color: #007bff;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .share-icon {
+            cursor: pointer;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .sort-container {
+            text-align: right;
+            margin-bottom: 1rem;
+        }
+
+            .sort-container select {
+                border-radius: 5px;
+                padding: 0.3rem 1rem;
+                border: 1px solid #777;
+            }
+
+        @@media (max-width: 576px) {
+            .productlists {
+                width: 45%;
+                margin: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Content -->
+    <div class="content container">
+        @if (string.IsNullOrEmpty(ViewBag.SearchHeader))
+        {
+            <h1>ALL COLLECTION</h1>
+
+        }
+        else
+        {
+            <h1>
+                @ViewBag.SearchHeader
+            </h1>
+        }
+        <p class="lead">Product list</p>
+
+        <!-- Sort Dropdown -->
+        <div class="sort-container">
+            <label for="sort">Sort By:</label>
+            <select id="sort" asp-items="@ViewBag.MenuHeaderList" class="form-select d-inline w-auto" onchange="filterStockList()">
+                @* <option>All Items</option> *@
+            </select>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="row product-grid">
+            <!-- Product Cards -->
+            @if (Model.stockmenusearchlist != null)
+            {
+                @foreach (var item in Model.stockmenusearchlist)
+                {
+                    <div class="productlists col-md-2 col-sm-5">
+                        <div class="product-item">
+                            @{
+                                var image = "";
+
+                                @if (!string.IsNullOrEmpty(item.StImage))
+                                {
+                                    var imagePaths = item.StImage.Split(';');
+                                    image = imagePaths[0];
+                                    <img onclick="OpenStockDetail(@item.StId)" src="@image" class="img-fluid" alt="Product Image">
+                                }
+                                else
+                                {
+                                    <img src="#" class="img-fluid" alt="No Image Available">
+                                }
+                                <div class="product-title">@item.StName</div>
+                                // <div class="product-category">Women Collection</div>
+
+                                <div class="color-options" style="display:none">
+                                    @if (!string.IsNullOrEmpty(item.StColour))
+                                    {
+                                        var colors = item.StColour.Split(';');
+                                        var color = colors.ToList();
+                                        @foreach (var c in color)
+                                        {
+                                            <span style="background-color:@c;"></span>
+                                        }
+                                    }
+                                </div>
+                                <div class="detshare">
+                                    <a href="#" class="details-btn" onclick="OpenStockDetail(@item.StId)">See Details...</a>
+                                    <span class="share-icon"><i class="fas fa-share-alt share-icon" onclick="shareProduct('@item.StName', '@image', '@item.StId')"></i></span>
+                                </div>
+
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <span>No Results Found For <span>@Model.StSearchValue</span></span>
+            }
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="~/js/stock.js"></script>
+<script src="~/js/search.js"></script>
+<script>
+    $(document).ready(function () {
+        var searchheaderval = "@ViewBag.SearchHeaderValue";
+        // if ("@ViewBag.SearchHeaderValue" == 0) {
+        //     $("#sort").text("All Collection");
+        // } else {
+        //     $("#sort").val("@ViewBag.SearchHeaderValue");
+        // }
+        $("#sort").val("@ViewBag.SearchHeaderValue");
+
+    });
+
+
+    // function shareProduct(title, imageUrl) {
+    //     if (navigator.share) {
+    //         navigator.share({
+    //             title: title,
+    //             text: 'Check out this product!',
+    //             url: window.location.href,
+    //         }).then(() => {
+    //             console.log('Thanks for sharing!');
+    //         }).catch((error) => console.error('Error sharing:', error));
+    //     } else {
+    //         alert("Share not supported on this browser. Try a different device or browser.");
+    //     }
+    // }
+
+    // function getUrlPath() {
+    //     // Get the current URL
+    //     const currentUrl = window.location.href;
+
+    //     // Create a URL object
+    //     const url = new URL(currentUrl);
+
+    //     // Construct the base URL
+    //     const baseUrl = `${url.protocol}//${url.hostname}${url.port ? ':' + url.port : ''}/`;
+
+    //     return baseUrl;
+    // }
+
+    // function shareProduct(title, imageUrl, StId) {
+    //     const shareUrl = getUrlPath() +`stock/stockdetail?StId=${StId}`;
+
+    //     if (navigator.share) {
+    //         navigator.share({
+    //             title: title,
+    //             text: 'Check out this product!',
+    //             url: shareUrl
+    //         }).then(() => {
+    //             console.log('Thanks for sharing!');
+    //         }).catch((error) => console.error('Error sharing:', error));
+    //     } else {
+    //         alert("Share not supported on this browser. Try a different device or browser.");
+    //     }
+    // }
+
+
+
+</script>

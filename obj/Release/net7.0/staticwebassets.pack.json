@@ -1,0 +1,425 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\obj\\Release\\net7.0\\scopedcss\\projectbundle\\ClothingPro.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ClothingPro.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\WIN_20240625_07_36_05_Pro.jpg",
+      "PackagePath": "staticwebassets\\banners\\WIN_20240625_07_36_05_Pro.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\WIN_20240625_07_36_38_Pro.jpg",
+      "PackagePath": "staticwebassets\\banners\\WIN_20240625_07_36_38_Pro.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\WIN_20240816_16_43_41_Pro.jpg",
+      "PackagePath": "staticwebassets\\banners\\WIN_20240816_16_43_41_Pro.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\attachment.png",
+      "PackagePath": "staticwebassets\\banners\\attachment.png"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\attachment2.png",
+      "PackagePath": "staticwebassets\\banners\\attachment2.png"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\jacket.jpg",
+      "PackagePath": "staticwebassets\\banners\\jacket.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\pan1.jpg",
+      "PackagePath": "staticwebassets\\banners\\pan1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\pant.jpg",
+      "PackagePath": "staticwebassets\\banners\\pant.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\shirt.jpg",
+      "PackagePath": "staticwebassets\\banners\\shirt.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\banners\\sweater.jpg",
+      "PackagePath": "staticwebassets\\banners\\sweater.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\colorimages\\best.jpg",
+      "PackagePath": "staticwebassets\\colorimages\\best.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\colorimages\\hoodie.jpg",
+      "PackagePath": "staticwebassets\\colorimages\\hoodie.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\colorimages\\jacket.jpg",
+      "PackagePath": "staticwebassets\\colorimages\\jacket.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\colorimages\\pan1.jpg",
+      "PackagePath": "staticwebassets\\colorimages\\pan1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\colorimages\\pant.jpg",
+      "PackagePath": "staticwebassets\\colorimages\\pant.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\colorimages\\shirt.jpg",
+      "PackagePath": "staticwebassets\\colorimages\\shirt.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\colorimages\\sweater.jpg",
+      "PackagePath": "staticwebassets\\colorimages\\sweater.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\css\\carousel.css",
+      "PackagePath": "staticwebassets\\css\\carousel.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\css\\stock.css",
+      "PackagePath": "staticwebassets\\css\\stock.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\css\\stockdetail.css",
+      "PackagePath": "staticwebassets\\css\\stockdetail.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\css\\stockmenudetail.css",
+      "PackagePath": "staticwebassets\\css\\stockmenudetail.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\attachment.png",
+      "PackagePath": "staticwebassets\\images\\attachment.png"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\attachment2.png",
+      "PackagePath": "staticwebassets\\images\\attachment2.png"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\banners\\pant.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\pant.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\banners\\shirt.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\shirt.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\best.jpg",
+      "PackagePath": "staticwebassets\\images\\best.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\hoodie.jpg",
+      "PackagePath": "staticwebassets\\images\\hoodie.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\img.webp",
+      "PackagePath": "staticwebassets\\images\\img.webp"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\jacket.jpg",
+      "PackagePath": "staticwebassets\\images\\jacket.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\jumper.png",
+      "PackagePath": "staticwebassets\\images\\jumper.png"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\p.webp",
+      "PackagePath": "staticwebassets\\images\\p.webp"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\pan1.jpg",
+      "PackagePath": "staticwebassets\\images\\pan1.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\pant.jpg",
+      "PackagePath": "staticwebassets\\images\\pant.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\shirt.jpg",
+      "PackagePath": "staticwebassets\\images\\shirt.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\images\\sweater.jpg",
+      "PackagePath": "staticwebassets\\images\\sweater.jpg"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\js\\Banner.js",
+      "PackagePath": "staticwebassets\\js\\Banner.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\js\\ColorImages.js",
+      "PackagePath": "staticwebassets\\js\\ColorImages.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\js\\carousel.js",
+      "PackagePath": "staticwebassets\\js\\carousel.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\js\\search.js",
+      "PackagePath": "staticwebassets\\js\\search.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\js\\stock.js",
+      "PackagePath": "staticwebassets\\js\\stock.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Projects\\,net7 core\\for update acc\\ClothingPro\\ClothingPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.ClothingPro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.ClothingPro.props",
+      "PackagePath": "build\\ClothingPro.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ClothingPro.props",
+      "PackagePath": "buildMultiTargeting\\ClothingPro.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.ClothingPro.props",
+      "PackagePath": "buildTransitive\\ClothingPro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
